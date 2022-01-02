@@ -1,0 +1,30 @@
+.btn,
+.btn::after,
+.btn::before {
+  border: 1px solid rgb(248, 242, 242);
+  outline: none;
+  cursor: pointer;
+  padding: 1rem 3rem;
+  text-transform: capitalize;
+  border-radius: 0.5rem;
+  transition: all 0.35s;
+  background-color: #fff;
+  color: #3d3d3d;
+  margin: 0.5rem;
+  font: inherit;
+}
+
+.btn__big {
+  padding: 1.5rem 5rem;
+}
+
+.btn:hover {
+  transform: translateY(-0.5rem);
+  background-color: #4a4edd;
+  border: 1px solid #170045;
+  color: #fff;
+}
+
+.rounded {
+  border-radius: 10rem;
+}

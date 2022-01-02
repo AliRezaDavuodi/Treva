@@ -1,0 +1,9 @@
+<svg id="apply" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="47" height="47" viewBox="0 0 47 47">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="icon_action_done_all_24px" data-name="icon/action/done_all_24px" d="M3.143,8.644.205,5.706a.708.708,0,0,1,0-1,.7.7,0,0,1,.991,0L4.625,8.151l-.491.492a.7.7,0,0,1-.991,0Zm3.97-.007L4.175,5.7a.7.7,0,0,1,.991-.991L7.611,7.147,14.554.2a.686.686,0,0,1,.984.007h.007a.7.7,0,0,1,0,.991L8.1,8.636a.7.7,0,0,1-.991,0ZM6.62,4.175,10.584.212a.7.7,0,0,1,.991.984L7.611,5.165Z" transform="translate(16.145 19.368)" fill="#fd5e5e"/>
+    </clipPath>
+  </defs>
+  <circle id="Oval" cx="23.5" cy="23.5" r="23.5" fill="#fd5e5e" opacity="0.204"/>
+  <path id="icon_action_done_all_24px-2" data-name="icon/action/done_all_24px" d="M3.143,8.644.205,5.706a.708.708,0,0,1,0-1,.7.7,0,0,1,.991,0L4.625,8.151l-.491.492a.7.7,0,0,1-.991,0Zm3.97-.007L4.175,5.7a.7.7,0,0,1,.991-.991L7.611,7.147,14.554.2a.686.686,0,0,1,.984.007h.007a.7.7,0,0,1,0,.991L8.1,8.636a.7.7,0,0,1-.991,0ZM6.62,4.175,10.584.212a.7.7,0,0,1,.991.984L7.611,5.165Z" transform="translate(16.145 19.368)" fill="#fd5e5e"/>
+</svg>
