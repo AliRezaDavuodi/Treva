@@ -1,0 +1,60 @@
+.hire__item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5rem 3rem;
+  padding-right: 0;
+  overflow: hidden;
+  position: relative;
+
+  &--left {
+    position: relative;
+    text-align: left;
+    color: #fff;
+
+    h3 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+    }
+
+    p {
+      font-size: 1.7rem;
+    }
+
+    &::after {
+      content: "";
+      position: absolute;
+      width: 110%;
+      height: 100%;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      z-index: -1;
+      background-size: contain;
+      background-repeat: no-repeat;
+    }
+  }
+
+  &--right {
+    z-index: -2;
+
+    img {
+      object-fit: fill;
+      width: 110%;
+    }
+  }
+}
+
+.bg-blue {
+  padding: 5rem;
+  padding-top: 1rem;
+  &::after {
+    background-image: url("../../assets/bluebg.svg");
+  }
+}
+.bg-orange {
+  padding: 8rem;
+  &::after {
+    background-image: url("../../assets/bgorange.svg");
+  }
+}
