@@ -1,9 +1,9 @@
-.hire__title {
+.work__title {
   font-size: 3.5rem;
   text-transform: capitalize;
 }
 
-.hire__methods {
+.work__methods {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -18,7 +18,7 @@
     padding: 3rem 5rem;
 
     &:first-child {
-      border-bottom: 2px solid #7796fe;
+      border-bottom: 2px solid #fb1488;
     }
 
     span {
