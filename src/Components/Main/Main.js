@@ -7,11 +7,11 @@ import "./Main.scss";
 
 const Main = () => {
   return (
-    <div className="main">
+    <main role="main" className="main">
       <Hire />
       <Work />
       <SubscribeUs />
-    </div>
+    </main>
   );
 };
 

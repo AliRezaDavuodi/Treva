@@ -42,8 +42,6 @@ const HireItem = () => {
             rem aperiam eaque gaudere ut. t vero eos et caritatem, quae ab eo
             <br />
             ortum, tam crudelis fuisse, nihil. Et quidem rerum necessitatibus
-            <br />
-            saepe eveniet
           </p>
         </div>
       </div>
