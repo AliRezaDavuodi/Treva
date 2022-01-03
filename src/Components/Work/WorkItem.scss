@@ -7,18 +7,44 @@
   overflow: hidden;
   position: relative;
 
+  @media (max-width: 768px) {
+    flex-direction: column;
+    padding: 3.5rem 0;
+  }
+
   &--left {
     position: relative;
     text-align: left;
     color: #fff;
 
+    @media (max-width: 768px) {
+      width: 100%;
+      text-align: center;
+    }
+
     h3 {
       font-size: 2.5rem;
       margin-bottom: 1rem;
+
+      @media (max-width: 375px) {
+        font-size: 1.8rem;
+      }
+
+      @media (max-width: 768px) {
+        font-size: 2rem;
+      }
     }
 
     p {
       font-size: 1.7rem;
+
+      @media (max-width: 375px) {
+        font-size: 1.5rem;
+      }
+
+      @media (max-width: 768px) {
+        font-size: 1.2rem;
+      }
     }
 
     &::after {
@@ -32,6 +58,10 @@
       z-index: -1;
       background-size: contain;
       background-repeat: no-repeat;
+
+      @media (max-width: 768px) {
+        width: 100%;
+      }
     }
   }
 
@@ -48,14 +78,32 @@
 .bg-purpul {
   padding: 10rem;
 
+  @media (max-width: 768px) {
+    padding: 5rem;
+  }
+
   &::after {
     background-image: url("../../assets/bgpurpul.svg");
+    @media (max-width: 768px) {
+      background-size: cover;
+      background-position: center;
+    }
   }
 }
 .bg-green {
   padding: 8rem;
 
+  @media (max-width: 768px) {
+    padding: 5rem;
+    order: -1;
+  }
+
   &::after {
     background-image: url("../../assets/bggreen.svg");
+
+    @media (max-width: 768px) {
+      background-size: cover;
+      background-position: center;
+    }
   }
 }
