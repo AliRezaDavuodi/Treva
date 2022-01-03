@@ -79,33 +79,40 @@
 }
 
 .bg-blue {
-  padding: 5rem;
+  padding: 8rem;
   padding-top: 1rem;
+  text-align: center;
 
-  @media (max-width: 768px) {
-    padding: 5rem;
+  p {
+    width: 80%;
+    margin: 0 auto;
+    text-align: justify;
   }
 
   &::after {
     background-image: url("../../assets/bluebg.svg");
-
-    @media (max-width: 768px) {
-      background-position: center;
-      background-size: cover;
-    }
+    background-position: center;
+    background-size: 100%;
   }
 }
 .bg-orange {
   padding: 10rem;
+  text-align: center;
+
+  p {
+    width: 80%;
+    margin: 0 auto;
+    text-align: justify;
+  }
+
   @media (max-width: 768px) {
     order: -1;
     padding: 5rem;
   }
+
   &::after {
     background-image: url("../../assets/bgorange.svg");
-    @media (max-width: 768px) {
-      background-position: center;
-      background-size: cover;
-    }
+    background-position: center;
+    background-size: contain;
   }
 }

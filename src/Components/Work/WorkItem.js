@@ -15,10 +15,6 @@ const WorkItem = () => {
             There is no denying the fact that the success of an advertisement
             <br />
             lies mostly in the headline. The headline should attract the reader
-            <br />
-            and make him read the rest of the advertisement. The headline should
-            <br />
-            be simply catchy and various key points should be embedded when
           </p>
         </div>
         <div className="work__item--right">
@@ -36,18 +32,6 @@ const WorkItem = () => {
             There is no denying the fact that the success of an advertisement{" "}
             <br />
             lies mostly in the headline. The headline should attract the reader
-            <br />
-            and make him read the rest of the advertisement. The headline should
-            <br />
-            be simply catchy and various key points should be embedded when
-            <br />
-            deciding on the headline for the ad. The headline should catch
-            <br />
-            attention of the eye at the first glance. Words in headlines should
-            <br />
-            act as tags for the advertisement. It should say it all about the
-            <br />
-            content
           </p>
         </div>
       </div>

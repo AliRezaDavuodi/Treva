@@ -10,7 +10,17 @@
     flex-direction: column;
   }
 
+  &__actions {
+    @media (max-width: 768px) {
+      margin-bottom: 2rem;
+    }
+  }
+
   &__logo {
+    @media (max-width: 768px) {
+      margin-bottom: 2rem;
+    }
+
     img {
       width: 100%;
       object-fit: fill;

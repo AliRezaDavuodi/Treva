@@ -15,12 +15,6 @@ const HireItem = () => {
             Filium morte multavit si sine dubio praeclara sunt, explicabo nemo
             <br />
             enim ad minima. Probabo, inquit, modo ista sis aequitate, quam ob
-            <br />
-            rem aperiam eaque gaudere ut. t vero eos et caritatem, quae ab eo
-            <br />
-            ortum, tam crudelis fuisse, nihil. Et quidem rerum necessitatibus
-            <br />
-            saepe eveniet
           </p>
         </div>
         <div className="hire__item--right">
@@ -38,10 +32,6 @@ const HireItem = () => {
             Filium morte multavit si sine dubio praeclara sunt, explicabo nemo
             <br />
             enim ad minima. Probabo, inquit, modo ista sis aequitate, quam ob
-            <br />
-            rem aperiam eaque gaudere ut. t vero eos et caritatem, quae ab eo
-            <br />
-            ortum, tam crudelis fuisse, nihil. Et quidem rerum necessitatibus
           </p>
         </div>
       </div>

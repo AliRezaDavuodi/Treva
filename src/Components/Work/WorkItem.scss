@@ -78,20 +78,33 @@
 .bg-purpul {
   padding: 10rem;
 
+  text-align: center;
+
+  p {
+    width: 80%;
+    margin: 0 auto;
+    text-align: justify;
+  }
+
   @media (max-width: 768px) {
     padding: 5rem;
   }
 
   &::after {
     background-image: url("../../assets/bgpurpul.svg");
-    @media (max-width: 768px) {
-      background-size: cover;
-      background-position: center;
-    }
+    background-size: contain;
+    background-position: center;
   }
 }
 .bg-green {
   padding: 8rem;
+  text-align: center;
+
+  p {
+    width: 80%;
+    margin: 0 auto;
+    text-align: justify;
+  }
 
   @media (max-width: 768px) {
     padding: 5rem;
@@ -100,10 +113,7 @@
 
   &::after {
     background-image: url("../../assets/bggreen.svg");
-
-    @media (max-width: 768px) {
-      background-size: cover;
-      background-position: center;
-    }
+    background-size: contain;
+    background-position: center;
   }
 }
