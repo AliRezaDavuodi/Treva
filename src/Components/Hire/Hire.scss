@@ -2,4 +2,12 @@
   padding: 10rem 5rem 2rem;
   text-align: center;
   margin: 5rem 0;
+
+  @media (max-width: 375px) {
+    margin: 2rem 0;
+  }
+
+  @media (max-width: 768px) {
+    margin: 3.5rem 0;
+  }
 }

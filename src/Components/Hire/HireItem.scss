@@ -7,18 +7,43 @@
   overflow: hidden;
   position: relative;
 
+  @media (max-width: 768px) {
+    flex-direction: column;
+  }
+
   &--left {
     position: relative;
     text-align: left;
     color: #fff;
 
+    @media (max-width: 768px) {
+      width: 100%;
+      text-align: center;
+    }
+
     h3 {
       font-size: 2.5rem;
       margin-bottom: 1rem;
+
+      @media (max-width: 375px) {
+        font-size: 2rem;
+      }
+
+      @media (max-width: 768px) {
+        font-size: 1.75rem;
+      }
     }
 
     p {
       font-size: 1.7rem;
+
+      @media (max-width: 375px) {
+        font-size: 1.5rem;
+      }
+
+      @media (max-width: 768px) {
+        font-size: 1.3rem;
+      }
     }
 
     &::after {
@@ -32,6 +57,10 @@
       z-index: -1;
       background-size: contain;
       background-repeat: no-repeat;
+
+      @media (max-width: 768px) {
+        width: 100%;
+      }
     }
   }
 
@@ -41,6 +70,10 @@
     img {
       object-fit: fill;
       width: 110%;
+
+      @media (max-width: 768px) {
+        width: 100%;
+      }
     }
   }
 }
@@ -48,13 +81,31 @@
 .bg-blue {
   padding: 5rem;
   padding-top: 1rem;
+
+  @media (max-width: 768px) {
+    padding: 5rem;
+  }
+
   &::after {
     background-image: url("../../assets/bluebg.svg");
+
+    @media (max-width: 768px) {
+      background-position: center;
+      background-size: cover;
+    }
   }
 }
 .bg-orange {
   padding: 10rem;
+  @media (max-width: 768px) {
+    order: -1;
+    padding: 5rem;
+  }
   &::after {
     background-image: url("../../assets/bgorange.svg");
+    @media (max-width: 768px) {
+      background-position: center;
+      background-size: cover;
+    }
   }
 }
