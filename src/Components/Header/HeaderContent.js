@@ -10,8 +10,8 @@ const HeaderContent = () => {
         <h1 className="header__content--title"> Find Your Dream Job Here </h1>
         <p className="header__content--paragraph">
           Filium morte multavit si sine dubio praeclara sunt, explicabo nemo
-          <br /> enim ad minima. Probabo, inquit, modo ista sis aequitate, quam
-          ob <br /> rem aperiam eaque gaudere ut.
+          enim ad minima. Probabo, inquit, modo ista sis aequitate, quam ob rem
+          aperiam eaque gaudere ut.
         </p>
       </div>
       <div className="header__actions">

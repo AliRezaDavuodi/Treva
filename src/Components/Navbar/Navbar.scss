@@ -6,6 +6,10 @@
   padding: 0.5rem 5rem;
   height: 8rem;
 
+  @media (max-width: 768px) {
+    flex-direction: column;
+  }
+
   &__logo {
     img {
       width: 100%;
