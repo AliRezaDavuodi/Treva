@@ -2,8 +2,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 5rem 3rem;
-  padding-right: 0;
+  padding: 5rem 2rem;
   overflow: hidden;
   position: relative;
 
@@ -12,6 +11,7 @@
   }
 
   &--left {
+    width: 35%;
     position: relative;
     text-align: left;
     color: #fff;
@@ -66,13 +66,18 @@
 
   &--right {
     z-index: -2;
+    width: 65%;
+
+    @media (max-width: 768px) {
+      width: 100%;
+    }
 
     img {
-      object-fit: fill;
-      width: 110%;
+      height: 100%;
 
       @media (max-width: 768px) {
         width: 100%;
+        height: auto;
       }
     }
   }
@@ -80,7 +85,6 @@
 
 .bg-blue {
   padding: 8rem;
-  padding-top: 1rem;
   text-align: center;
 
   p {
@@ -113,6 +117,6 @@
   &::after {
     background-image: url("../../assets/bgorange.svg");
     background-position: center;
-    background-size: contain;
+    background-size: 85%;
   }
 }

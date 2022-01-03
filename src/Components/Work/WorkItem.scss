@@ -16,6 +16,7 @@
     position: relative;
     text-align: left;
     color: #fff;
+    width: 35%;
 
     @media (max-width: 768px) {
       width: 100%;
@@ -67,10 +68,19 @@
 
   &--right {
     z-index: -2;
+    width: 65%;
+
+    @media (max-width: 768px) {
+      width: 100%;
+      text-align: center;
+    }
 
     img {
-      object-fit: fill;
-      width: 100%;
+      height: 100%;
+      @media (max-width: 768px) {
+        width: 100%;
+        height: auto;
+      }
     }
   }
 }
@@ -92,7 +102,7 @@
 
   &::after {
     background-image: url("../../assets/bgpurpul.svg");
-    background-size: contain;
+    background-size: 100%;
     background-position: center;
   }
 }
@@ -113,7 +123,11 @@
 
   &::after {
     background-image: url("../../assets/bggreen.svg");
-    background-size: contain;
     background-position: center;
+    background-size: contain;
+
+    @media (max-width: 768px) {
+      background-size: 100%;
+    }
   }
 }
