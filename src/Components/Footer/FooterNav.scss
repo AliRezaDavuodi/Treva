@@ -1,0 +1,53 @@
+.footer__nav {
+  width: 80%;
+}
+
+.footer__list {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  list-style: none;
+}
+
+.footer__sub--List {
+  list-style: none;
+  width: 100%;
+}
+
+.footer__item {
+  padding: 0.5rem 1.3rem;
+  margin: 0.5rem;
+
+  button {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font: inherit;
+    width: 100%;
+    padding: 0.5rem;
+    transition: all 0.35s;
+  }
+}
+
+.footer__item--icon {
+  display: flex;
+}
+
+.footer__sub--item {
+  border-bottom: 1px solid transparent;
+  transition: all 0.35s;
+
+  .footer:hover {
+    border-bottom: 1px solid #df0142;
+  }
+}
+
+.footer__item--head {
+  width: 20%;
+
+  .footer > button {
+    font-size: 2.4rem;
+  }
+}
