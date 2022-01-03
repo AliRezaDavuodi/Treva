@@ -3,4 +3,9 @@
   justify-content: space-between;
   align-items: flex-start;
   padding: 3rem;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    padding: 1rem;
+  }
 }

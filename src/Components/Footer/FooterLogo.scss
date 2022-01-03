@@ -1,4 +1,8 @@
 .footer__logo {
   width: 20%;
   text-align: center;
+
+  @media (max-width: 768px) {
+    width: 100%;
+  }
 }

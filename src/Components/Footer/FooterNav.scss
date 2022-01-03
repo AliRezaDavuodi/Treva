@@ -1,5 +1,9 @@
 .footer__nav {
   width: 80%;
+
+  @media (max-width: 768px) {
+    width: 100%;
+  }
 }
 
 .footer__list {
@@ -8,6 +12,11 @@
   justify-content: center;
   align-items: flex-start;
   list-style: none;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 .footer__sub--List {
@@ -18,6 +27,9 @@
 .footer__item {
   padding: 0.5rem 1.3rem;
   margin: 0.5rem;
+  @media (max-width: 768px) {
+    margin: 0;
+  }
 
   button {
     background-color: transparent;
@@ -28,16 +40,23 @@
     width: 100%;
     padding: 0.5rem;
     transition: all 0.35s;
-  }
-}
 
-.footer__item--icon {
-  display: flex;
+    @media (max-width: 768px) {
+      padding: 0;
+      margin: 0.5rem 0;
+    }
+  }
 }
 
 .footer__sub--item {
   border-bottom: 1px solid transparent;
   transition: all 0.35s;
+
+  @media (max-width: 768px) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
   .footer:hover {
     border-bottom: 1px solid #df0142;
@@ -46,6 +65,10 @@
 
 .footer__item--head {
   width: 20%;
+
+  @media (max-width: 768px) {
+    width: 100%;
+  }
 
   .footer > button {
     font-size: 2.4rem;
